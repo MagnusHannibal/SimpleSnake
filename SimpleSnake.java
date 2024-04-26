@@ -6,8 +6,8 @@ public class SimpleSnake extends JFrame {
 
     private static final int WINDOW_SIZE = 1200;
     private static final int DOT_SIZE = 20;
-    private int x = 400;
-    private int y = 500;
+    private int x = 650;
+    private int y = 650;
 
     public SimpleSnake() {
         this.setTitle("Simple Snake Game");
