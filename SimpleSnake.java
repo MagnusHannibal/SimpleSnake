@@ -22,6 +22,7 @@ public class SimpleSnake extends JFrame {
             this.setFocusable(true);
             this.addKeyListener(this);
             this.setBackground(Color.BLACK);
+
         }
 
         @Override
@@ -61,3 +62,4 @@ public class SimpleSnake extends JFrame {
         SwingUtilities.invokeLater(SimpleSnake::new);
     }
 }
+//Utilitidds
