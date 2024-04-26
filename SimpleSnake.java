@@ -23,7 +23,7 @@ public class SimpleSnake extends JFrame {
             this.addKeyListener(this);
             this.setBackground(Color.BLACK);
 
-        }
+        } // en hemmelig ids metode
 
         @Override
         protected void paintComponent(Graphics g) {
