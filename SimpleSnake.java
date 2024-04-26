@@ -25,6 +25,7 @@ public class SimpleSnake extends JFrame {
 
         } // en hemmelig ids metode
 
+
         @Override
         protected void paintComponent(Graphics g) {
             super.paintComponent(g);
