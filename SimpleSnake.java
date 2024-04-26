@@ -4,8 +4,8 @@ import java.awt.event.*;
 
 public class SimpleSnake extends JFrame {
 
-    private static final int WINDOW_SIZE = 500;
-    private static final int DOT_SIZE = 19;
+    private static final int WINDOW_SIZE = 700;
+    private static final int DOT_SIZE = 20;
     private int x = 100;
     private int y = 200;
 
@@ -28,6 +28,7 @@ public class SimpleSnake extends JFrame {
         @Override
         protected void paintComponent(Graphics g) {
             super.paintComponent(g);
+            g.drawString("Hi THere!",300,300 );
             g.setColor(Color.GREEN);
             g.fillOval(x, y, DOT_SIZE, DOT_SIZE);
         }
@@ -62,4 +63,4 @@ public class SimpleSnake extends JFrame {
         SwingUtilities.invokeLater(SimpleSnake::new);
     }
 }
-//Utilitidds
+// utilitiddds
